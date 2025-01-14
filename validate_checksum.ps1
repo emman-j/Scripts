@@ -23,6 +23,8 @@ try {
 # Compare calculated hash with the reference hash
 if ($CalculatedHash -eq $ReferenceSHA256) {
     Write-Host "SHA-256 hash is correct!" -ForegroundColor Green
+    Write-Host "Calculated Hash: $CalculatedHash" -ForegroundColor Yellow
+    Write-Host "Reference Hash:  $ReferenceSHA256" -ForegroundColor Yellow
 } else {
     Write-Host "SHA-256 hash is incorrect!" -ForegroundColor Red
     Write-Host "Calculated Hash: $CalculatedHash" -ForegroundColor Yellow
