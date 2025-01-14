@@ -1,7 +1,7 @@
 @echo off
 
 REM Define the Base64-encoded PowerShell script
-REM I cannot for the life of me output a ps script using plain text here without error and this is easier than escaping as well
+REM I cannot for the life of me output a ps script using plain text here without any writing error and this is easier than escaping as well
 REM
 REM ----------------------------------------------
 REM PowerShell Script to Unblock Files Recursively
