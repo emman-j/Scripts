@@ -8,6 +8,17 @@ if not exist .git (
     exit /b 1
 )
 
+REM Check if there are any changes
+set changes=0
+for /f %%i in ('git status --porcelain') do (
+    set changes=1
+)
+if %changes%==0 (
+    echo No changes to commit.
+    pause
+    exit /b 0
+)
+
 REM Show the changed files
 echo Changed files:
 git status -s
