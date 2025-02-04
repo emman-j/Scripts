@@ -20,6 +20,7 @@ REM Infinite loop
 	    set changes=1
 	)
 	if %changes%==0 (
+	    cd
 	    echo No changes to commit.
 	    pause
 	    goto loop
