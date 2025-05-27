@@ -7,7 +7,7 @@ A curated collection of utility scripts designed to streamline various tasks. Ma
 ## Script Overview
 
 ### `git_automation.bat`
-Automates the process of adding, committing, and pushing changes to a Git repository. Ideal for quick updates without manual Git commands.
+Automates the process of staging, committing, and pushing changes to a Git repository. Ideal for quick updates without manual Git commands.
 
 ### `git_automation_looped.bat`
 An extension of `git_automation.bat` that continuously monitors a directory for changes and automates Git operations at set intervals.
