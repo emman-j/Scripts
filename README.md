@@ -6,17 +6,11 @@ A curated collection of utility scripts designed to streamline various tasks. Ma
 
 ## Script Overview
 
-### `git_automation.bat`
+### `file-unblock`
+This folder contains utilities to remove the "blocked" status from files downloaded from the internet on Windows systems. Blocking often occurs for files from untrusted sources and can prevent execution, editing, or cause warning prompts.
+
+### `git-automation`
 Automates the process of staging, committing, and pushing changes to a Git repository. Ideal for quick updates without manual Git commands.
-
-### `git_automation_looped.bat`
-An extension of `git_automation.bat` that continuously monitors a directory for changes and automates Git operations at set intervals.
-
-### `Unblock.bat`
-Removes the "blocked" status from files downloaded from the internet, which can prevent execution or editing warnings on Windows systems.
-
-### `Unblock_PS.bat`
-A PowerShell-based alternative to `Unblock.bat`, offering the same functionality using PowerShell commands.
 
 ### `validate_checksum.ps1`
 Validates the integrity of files by comparing their checksums against expected values. Useful for ensuring file authenticity and integrity.
