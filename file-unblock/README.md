@@ -1,35 +1,32 @@
-# Scripts
+# Unblock Scripts
 
-A curated collection of utility scripts designed to streamline various tasks. Many of these scripts were developed with the assistance of AI tools. Please review and use them at your discretion.
+This folder contains utilities to remove the "blocked" status from files downloaded from the internet on Windows systems.
+Blocking often occurs for files from untrusted sources and can prevent execution, editing, or cause warning prompts.
+
+---
+## How to Use
+
+1. Copy or move the script into the **top-level folder** of the directory you want to unblock.
+2. Run the script. It will recursively scan all files and subfolders in the current directory and remove the "blocked" status.
+
+⚠️ **Important Warning:**  
+Do **not** run the script with **administrator privileges**, as it will default to running in the `System32` directory, potentially unblocking unintended system files. Always run it as a regular user from the intended folder.
+
 
 ---
 
 ## Script Overview
 
-### `git_automation.bat`
-Automates the process of staging, committing, and pushing changes to a Git repository. Ideal for quick updates without manual Git commands.
-
-### `git_automation_looped.bat`
-An extension of `git_automation.bat` that continuously monitors a directory for changes and automates Git operations at set intervals.
-
 ### `Unblock.bat`
-Removes the "blocked" status from files downloaded from the internet, which can prevent execution or editing warnings on Windows systems.
+A basic batch script that recursively unblocks files in the current directory. It provides **verbose output**, showing each file being processed.
 
 ### `Unblock_PS.bat`
-A PowerShell-based alternative to `Unblock.bat`, offering the same functionality using PowerShell commands.
-
-### `validate_checksum.ps1`
-Validates the integrity of files by comparing their checksums against expected values. Useful for ensuring file authenticity and integrity.
+A batch script that runs the same logic as `Unblock.bat`, but with a **PowerShell-based progress bar** instead of detailed log output.
+It offers a more user-friendly visual experience while processing multiple files.
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Note
 
-These scripts are provided "as-is" and may require modifications to fit specific use cases. Always review and test scripts in a controlled environment before deploying them in production.
-
----
-
-## Feedback & Contributions
-
-Contributions, suggestions, and feedback are welcome! Feel free to open an issue or submit a pull request.
-
+- These scripts are intended for Windows environments only.
+- Run with appropriate permissions if files are in protected locations.
