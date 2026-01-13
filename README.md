@@ -1,6 +1,6 @@
 # Scripts
 
-A curated collection of utility scripts designed to streamline various tasks. Many of these scripts were developed with the assistance of AI tools. Please review and use them at your discretion.
+A curated collection of utility scripts designed to streamline various tasks. Some of the scripts were developed with the assistance of AI tools. Please review and use them at your discretion.
 
 ---
 
