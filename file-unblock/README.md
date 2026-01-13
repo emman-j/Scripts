@@ -20,9 +20,16 @@ Do **not** run the script with **administrator privileges**, as it will default 
 ### `Unblock.bat`
 A basic batch script that recursively unblocks files in the current directory. It provides **verbose output**, showing each file being processed.
 
+![file-unblock/Images/unblockbat.png](https://raw.githubusercontent.com/emman-j/Scripts/refs/heads/main/file-unblock/Images/unblockbat.png)
+
+
 ### `Unblock_PS.bat`
+
 A batch script that runs the same logic as `Unblock.bat`, but with a **PowerShell-based progress bar** instead of detailed log output.
 It offers a more user-friendly visual experience while processing multiple files.
+
+![file-unblock/Images/unblockps1.png](https://raw.githubusercontent.com/emman-j/Scripts/refs/heads/main/file-unblock/Images/unblockps1.png)
+![file-unblock/Images/unblockps2.png](https://raw.githubusercontent.com/emman-j/Scripts/refs/heads/main/file-unblock/Images/unblockps2.png)
 
 ---
 
